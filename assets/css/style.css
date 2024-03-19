@@ -1,0 +1,23 @@
+.Square, .Yellow-square, .Blue-square, .Red-square {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.Red-square {
+  background-color: red;
+}
+
+.Blue-square {
+  background-color: blue;
+  margin: 40px;
+}
+
+.Yellow-square {
+  background-color: yellow;
+  margin: 80px;
+}
+
+/*# sourceMappingURL=style.css.map */

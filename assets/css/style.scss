@@ -1,0 +1,24 @@
+.Square{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 100px;
+    left: 100px; 
+}
+
+.Red-square {
+    @extend .Square;
+    background-color: red;
+}
+
+.Blue-square {
+    @extend .Square;
+    background-color: blue;
+    margin: 40px;
+}
+
+.Yellow-square {
+    @extend .Square;
+    background-color: yellow;
+    margin: 80px;
+}
